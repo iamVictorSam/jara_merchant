@@ -7,6 +7,7 @@ const kRed = Color(0xffF82020);
 const kBlue = Color(0xff3A77EE);
 const kPurple = Color(0xff6039F1);
 const kSet = Color(0xffF2F2F2);
+const kCircleAvatarColor = Color(0xffCCEBD6);
 
 const kBlack = Color(0xff000000);
 const kGrey = Color(0xffC4C4C4);
