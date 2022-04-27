@@ -15,6 +15,7 @@ const headStyle = TextStyle(
   fontSize: 15,
   fontWeight: FontWeight.bold,
 );
+const kGreyText = TextStyle(color: Color(0xff808080));
 
 final kGreenLight = const Color(0xFF009933).withOpacity(0.5);
 const kPrimaryGradientColor = LinearGradient(
@@ -40,6 +41,7 @@ const divide = Divider(
   // height: 1,
   thickness: 1,
 );
+const kHeaderTextSyle = TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold);
 const defaultDuration = Duration(milliseconds: 250);
 final kPadding = 20.w;
 

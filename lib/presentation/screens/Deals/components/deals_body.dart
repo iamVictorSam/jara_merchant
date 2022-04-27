@@ -11,19 +11,19 @@ class DealBody extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              const Padding(
-                padding: EdgeInsets.only(top: 20.0),
-                child: Align(
-                  alignment: Alignment.topLeft,
-                  child: Text("Deals",
-                      style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
-                ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Align(
+                alignment: Alignment.topLeft,
+                child: Text("Deals",
+                    style:
+                        TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
               ),
               const SizedBox(
                 height: 80,
               ),
-              Image.asset('images/Group 1391.png'),
+              Image.asset('assets/Group 1391.png'),
               const SizedBox(
                 height: 15,
               ),
