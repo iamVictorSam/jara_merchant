@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../helpers/constants.dart';
-import '../../../../widgets/add_product_image.dart';
-import '../../../../widgets/defaultBtn.dart';
+import '../../../helpers/constants.dart';
+import '../../../widgets/add_product_image.dart';
+import '../../../widgets/defaultBtn.dart';
 class UploadProductImage extends StatefulWidget {
   const UploadProductImage({Key? key}) : super(key: key);
 
